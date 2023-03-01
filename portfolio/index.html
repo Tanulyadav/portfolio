@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">         
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"> <img src="t1w.png" class="logo" ></a>
+        <div class="nav-sub">
+            <a href="#">HOME</a>
+            <a href="login/index.html">BLOG</a>
+            <a href="#">Our Projects</a>
+            <a href="#">CONTACT US</a>
+        </div>
+        <div class="media-icons1">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/tanul_y/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.github.com"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="ham" >  
+            <span class="bar1"></span>  
+            <span class="bar2"></span>  
+            <span class="bar3"></span>  
+          </div>  
+       </header>
+
+    <!--
+    <div class="header">
+        <nav class="navbar">
+            <img src="..//png files/logo.png" class="logo">
+            <ul class="nav-sub">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">CONTACT US</a></li>
+              
+            </ul>
+                <div class="ham" >  
+                  <span class="bar1"></span>  
+                  <span class="bar2"></span>  
+                  <span class="bar3"></span>  
+                </div>  
+        </nav>
+    <div>
+    </div>
+    -->
+    <section>
+
+       <div class="text-box">
+           <h1>I'm <span class="auto-input"></span></h1>
+           <p>You can reach out to me if you need any help in making<br> a website for you and your buisness.</p>
+           <a href="">Contact Me</a>
+           <a href="..//TY html/payment form.html" class="btn">Download CV</a>
+       </div>
+      <!-- <img src="..//png files/user.png" class="user-img">  -->
+
+
+
+    </div>
+</section>
+<footer>
+    <div class="footer">
+      <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="#">Home</a>
+        <a href="#">Our Projects</a>
+        <a href="#">Contact Us</a>
+        <a href="login/index.html">Blog</a>
+      </div>
+      <div class="col-2">
+        <h3>GET UPDATE</h3>
+        <form>
+          <input type="email" placeholder="Your Email Address" required>
+          <br>
+          <button type="submit">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+      <div class="col-3">
+        <h3>CONTACT</h3>
+        <p> Shop no 15,Thakur Village<br>Kandivali,Mumbai<br>+91-8723527398</p>
+        <div class="media-icons1">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/tanul_y/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.github.com"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings:["Tanul", "Web Developer", "UI Designer"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        })
+
+        const hamburger = document.querySelector(".ham");  
+ const navsub = document.querySelector(".nav-sub");  
+ hamburger.addEventListener('click', () => {  
+  hamburger.classList.toggle("change")  
+  navsub.classList.toggle("nav-change")  
+ }); 
+
+    </script>
+
+</body>
+</html>
